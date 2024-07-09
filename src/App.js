@@ -9,7 +9,7 @@ function App() {
   return (
     <div className="App">
         <h1>Counter App</h1>
-        <p>count: {count}</p>
+        <p>Count: {count}</p>
         <div>
           <button onClick={incrementDecrementHandler}>Increment</button>
           <button onClick={incrementDecrementHandler}>Decrement</button>
